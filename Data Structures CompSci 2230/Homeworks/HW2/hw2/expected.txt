@@ -1,0 +1,32 @@
+ERROR: addSandBox
+First box...
+SandBox(volume=4.0, sandVolume=4.0)
+SandBox(volume=3.0, sandVolume=3.0)
+SandBox(volume=16.0, sandVolume=1.0)
+source: SandBox(volume=8.0, sandVolume=0.0)
+...First test passed
+
+Second box...
+SandBox(volume=4.0, sandVolume=4.0)
+SandBox(volume=3.0, sandVolume=3.0)
+SandBox(volume=16.0, sandVolume=16.0)
+source: SandBox(volume=72.0, sandVolume=57.0)
+...Second test passed
+
+Third box...
+SandBox(volume=4.0, sandVolume=4.0)
+SandBox(volume=27.0, sandVolume=2.0)
+source: SandBox(volume=2.0, sandVolume=0.0)
+...Third test passed
+
+Poking holes in the SandBoxes!
+Time=0.5: SandBox(volume=4.0, sandVolume=3.0) SandBox(volume=27.0, sandVolume=1.75) SandBox(volume=1000.0, sandVolume=0.0) 
+Time=1.0: SandBox(volume=4.0, sandVolume=2.0) SandBox(volume=27.0, sandVolume=1.5) SandBox(volume=1000.0, sandVolume=0.0) 
+Time=1.5: SandBox(volume=4.0, sandVolume=1.0) SandBox(volume=27.0, sandVolume=1.25) SandBox(volume=1000.0, sandVolume=0.0) 
+Time=2.0: SandBox(volume=4.0, sandVolume=0.0) SandBox(volume=27.0, sandVolume=1.0) SandBox(volume=1000.0, sandVolume=0.0) 
+Time=2.5: SandBox(volume=4.0, sandVolume=0.0) SandBox(volume=27.0, sandVolume=0.75) SandBox(volume=1000.0, sandVolume=0.0) 
+Time=3.0: SandBox(volume=4.0, sandVolume=0.0) SandBox(volume=27.0, sandVolume=0.5) SandBox(volume=1000.0, sandVolume=0.0) 
+Time=3.5: SandBox(volume=4.0, sandVolume=0.0) SandBox(volume=27.0, sandVolume=0.25) SandBox(volume=1000.0, sandVolume=0.0) 
+Time=4.0: SandBox(volume=4.0, sandVolume=0.0) SandBox(volume=27.0, sandVolume=0.0) SandBox(volume=1000.0, sandVolume=0.0) 
+Time=4.5: SandBox(volume=4.0, sandVolume=0.0) SandBox(volume=27.0, sandVolume=0.0) SandBox(volume=1000.0, sandVolume=0.0)
+Time=5.0: SandBox(volume=4.0, sandVolume=0.0) SandBox(volume=27.0, sandVolume=0.0) SandBox(volume=1000.0, sandVolume=0.0)
